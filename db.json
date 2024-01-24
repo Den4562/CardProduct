@@ -1,0 +1,112 @@
+{
+  "notebook": [
+    {
+      "id": 4,
+      "name": "Ноутбук Lenovo ThinkPad",
+      "img": "https://img.moyo.ua/img/gallery/5368/0/1592158_middle.jpg?1681570151",
+      "brand": "Lenovo",
+      "price": 1199.99,
+      "screenSize": 15.6,
+      "processor": "Intel Core i5",
+      "ram": 8,
+      "storage": "512GB SSD",
+      "category": "Ноутбуки"
+    },
+    {
+      "id": 5,
+      "name": "Ноутбук ASUS VivoBook",
+      "img": "https://img.moyo.ua/img/gallery/5368/0/1592158_middle.jpg?1681570151",
+      "brand": "ASUS",
+      "price": 1199.99,
+      "screenSize": 14,
+      "processor": "Intel Core i3",
+      "ram": 4,
+      "storage": "256GB SSD",
+      "category": "Ноутбуки"
+    },
+    {
+      "id": 6,
+      "name": "Ноутбук Apple MacBook Air",
+      "img": "https://img.moyo.ua/img/gallery/5368/0/1592158_middle.jpg?1681570151",
+      "brand": "Apple",
+      "price": 1199.99,
+      "screenSize": 13.3,
+      "processor": "Apple M1",
+      "ram": 8,
+      "storage": "256GB SSD",
+      "category": "Ноутбуки"
+    },
+    {
+      "id": 7,
+      "name": "Ноутбук MSI GS66 Stealth",
+      "img": "https://img.moyo.ua/img/gallery/5368/0/1592158_middle.jpg?1681570151",
+      "brand": "MSI",
+      "price": 1199.99,
+      "screenSize": 15.6,
+      "processor": "Intel Core i9",
+      "ram": 32,
+      "storage": "1TB SSD",
+      "category": "Ноутбуки"
+    },
+    {
+      "id": 8,
+      "name": "Ноутбук Razer Blade 15",
+      "img": "https://img.moyo.ua/img/gallery/5368/0/1592158_middle.jpg?1681570151",
+      "brand": "Razer",
+      "price": 1199.99,
+      "screenSize": 15.6,
+      "processor": "Intel Core i7",
+      "ram": 16,
+      "storage": "1TB SSD",
+      "category": "Ноутбуки"
+    },
+    {
+      "id": 9,
+      "name": "Ноутбук LG Gram 17",
+      "img": "https://img.moyo.ua/img/gallery/5368/0/1592158_middle.jpg?1681570151",
+      "brand": "LG",
+      "price": 1199.99,
+      "screenSize": 17,
+      "processor": "Intel Core i5",
+      "ram": 8,
+      "storage": "512GB SSD",
+      "category": "Ноутбуки"
+    },
+    {
+      "id": 10,
+      "name": "Ноутбук Huawei MateBook X Pro",
+      "img": "https://img.moyo.ua/img/gallery/5368/0/1592158_middle.jpg?1681570151",
+      "brand": "Huawei",
+      "price": 1199.99,
+      "screenSize": 13.9,
+      "processor": "Intel Core i7",
+      "ram": 16,
+      "storage": "512GB SSD",
+      "category": "Ноутбуки"
+    },
+    {
+      "id": 11,
+      "name": "Ноутбук Microsoft Surface Laptop 4",
+      "img": "https://img.moyo.ua/img/gallery/5368/0/1592158_middle.jpg?1681570151",
+      "brand": "Microsoft",
+      "price": 1199.99,
+      "screenSize": 13.5,
+      "processor": "Intel Core i5",
+      "ram": 8,
+      "storage": "256GB SSD",
+      "category": "Ноутбуки"
+    },
+    {
+      "name": "Ноутбук Test",
+      "img": "https://img.moyo.ua/img/gallery/5368/0/1592158_middle.jpg?1681570151",
+      "brand": "ASUS",
+      "price": 1199.99,
+      "screenSize": 14,
+      "processor": "AMD Ryzen 11119",
+      "ram": 312,
+      "storage": "21TB SSD",
+      "category": "Ноутбуки",
+      "id": 16
+    }
+  ]
+}

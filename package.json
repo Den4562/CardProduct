@@ -1,0 +1,22 @@
+{
+  "name": "card2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/utils/index.html --open --port 3000",
+    "build": "parcel build src/utils/index.html",
+    "rebild": "parcel watch src/utils/index.html",
+    "server_start": "json-server --watch db.json --port 4040 "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.7.8",
+    "json-server": "^1.0.0-alpha.22",
+    "parcel": "^2.11.0",
+    "parcel-plugin-handlebars-precompile": "^1.0.2"
+  }
+}

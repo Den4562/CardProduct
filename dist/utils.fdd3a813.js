@@ -1,0 +1,10 @@
+parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcelRequire,u="function"==typeof require&&require;function f(t,n){if(!r[t]){if(!e[t]){var i="function"==typeof parcelRequire&&parcelRequire;if(!n&&i)return i(t,!0);if(o)return o(t,!0);if(u&&"string"==typeof t)return u(t);var c=new Error("Cannot find module '"+t+"'");throw c.code="MODULE_NOT_FOUND",c}p.resolve=function(r){return e[t][1][r]||r},p.cache={};var l=r[t]=new f.Module(t);e[t][0].call(l.exports,p,l,l.exports,this)}return r[t].exports;function p(e){return f(p.resolve(e))}}f.isParcelRequire=!0,f.Module=function(e){this.id=e,this.bundle=f,this.exports={}},f.modules=e,f.cache=r,f.parent=o,f.register=function(r,t){e[r]=[function(e,r){r.exports=t},{}]};for(var c=0;c<t.length;c++)try{f(t[c])}catch(e){i||(i=e)}if(t.length){var l=f(t[t.length-1]);"object"==typeof exports&&"undefined"!=typeof module?module.exports=l:"function"==typeof define&&define.amd?define(function(){return l}):n&&(this[n]=l)}if(parcelRequire=f,i)throw i;return f}({"wETH":[function(require,module,exports) {
+"use strict";function e(e,t){t.insertAdjacentHTML("beforeend",e)}Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=e;
+},{}],"B035":[function(require,module,exports) {
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.BASE_URL=void 0;var e=exports.BASE_URL="http://localhost:4040";
+},{}],"RJB1":[function(require,module,exports) {
+"use strict";var t=r(require("./addElement.js")),e=require("../utils/crud/constData.js");function r(t){return t&&t.__esModule?t:{default:t}}var n=document.querySelector(".js_cards");fetch("".concat(e.BASE_URL,"/notebook")).then(function(t){return t.json()}).then(function(e){e.forEach(function(e){var r=cardsTpi(e);(0,t.default)(r,n)})}).catch(function(t){console.error("Error fetching data:",t)});
+},{"./addElement.js":"wETH","../utils/crud/constData.js":"B035"}],"Focm":[function(require,module,exports) {
+"use strict";require("./add_card_product.js");
+},{"./add_card_product.js":"RJB1"}]},{},["Focm"], null)
+//# sourceMappingURL=/utils.fdd3a813.js.map
